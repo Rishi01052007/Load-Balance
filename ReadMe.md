@@ -48,20 +48,6 @@ Students configure scaling policies based on CPU utilization using Amazon CloudW
 
 Students test the setup by generating traffic and observing automatic scaling and load distribution.
 
-
-
-## Workflow (To be filled by Student)
-
-1.Review the existing EC2-based application architecture to understand current deployment, resource usage, and scalability requirements before implementing automation.
-
-2.Create a Launch Template that defines EC2 configuration such as AMI, instance type, key pair, security group, and user data. This ensures consistent instance creation in scaling environments.
-
-3.Create an Auto Scaling Group (ASG) using the launch template. Configure minimum, maximum, and desired capacity to automatically manage the number of running instances based on demand.
-
-4.Set up an Application Load Balancer (ALB) and create target groups to distribute incoming traffic evenly across EC2 instances, ensuring high availability and fault tolerance.
-
-5.Attach the ASG to the load balancer, configure scaling policies using CloudWatch alarms (based on CPU utilization), and test by generating traffic to verify automatic scaling and load balancing.
-
 ## Output Screenshots 
 
 <img width="1600" height="765" alt="WhatsApp Image 2026-05-26 at 10 26 06 PM" src="https://github.com/user-attachments/assets/0008eabc-7afe-47e8-bad8-584fc117f2c3" />
